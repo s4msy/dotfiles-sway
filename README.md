@@ -19,3 +19,4 @@ Just my dotfiles, with stuff stolen somewhere.
 - swaync
 - cliphist
 - alacritty
+- bottom
