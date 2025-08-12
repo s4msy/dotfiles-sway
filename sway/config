@@ -4,7 +4,7 @@
 #
 # Read `man 5 sway` for a complete reference.
 # Style
-font pango:monospace 12px 
+font Jetbrains:Mono 12px 
 default_border pixel 2
 titlebar_border_thickness 2
 gaps outer 4
@@ -286,3 +286,4 @@ bindsym $mod+r mode "resize"
 
 include /etc/sway/config.d/*
 exec nwg-panel
+exec nm-applet --indicator

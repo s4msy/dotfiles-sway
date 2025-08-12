@@ -16,6 +16,9 @@
     "items-padding": 0,
     "icons": "light",
     "css-name": "panel-top",
+    "autostart": [
+      "nm-applet --indicator &"
+    ],
     "modules-left": [
       "sway-workspaces"
     ],
@@ -23,7 +26,8 @@
       "clock"
     ],
     "modules-right": [
-      "sway-mode"
+      "sway-mode",
+      "tray"
     ],
     "controls-settings": {
       "components": [
