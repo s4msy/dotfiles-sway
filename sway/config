@@ -124,6 +124,8 @@ exec wl-paste --type image --watch cliphist store --max-items=1000 --persist-fil
 # Shortcut: Verlauf mit fuzzel anzeigen
 bindsym $mod+Shift+v exec "cliphist list | fuzzel --dmenu | cliphist decode | wl-copy"
 
+#Screenshots
+bindsym Print exec grim ~/Bilder/screenshot-$(date +'%Y-%m-%d_%H-%M-%S').png
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
@@ -262,8 +264,6 @@ bindsym $mod+r mode "resize"
     # Special keys to adjust brightness via brightnessctl
     bindsym --locked XF86MonBrightnessDown exec brightnessctl set 5%-
     bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
-    # Special key to take a screenshot with grim
-    bindsym Print exec grim
     for_window [window_role="pop-up"] border none
     for_window [app_id="librewolf"] border pixel 2
 #
