@@ -1,6 +1,6 @@
 # dotfiles-sway
 
-Just my dotfiles, with stuff stolen somewhere.
+Just my dotfiles, with stuff stolen somewhere. Motivation was to create a near Hyprland experience. But without any AUR software.
 
 <img src="asset/screenshot-2025-08-12_20-00-37.png" alt="Screenshot Swayfx + nwg-panel" width="800">
 
