@@ -107,7 +107,7 @@ exec swayidle -w \
     bindsym $mod+d exec $menu
 
     # Waybar on/off
-    bindsym $mod+j exec ~/.config/sway/waybar.sh
+    bindsym $mod+j exec ~/.config/sway/nwg-panel.sh
 
     bindsym $mod+Tab workspace next
 
